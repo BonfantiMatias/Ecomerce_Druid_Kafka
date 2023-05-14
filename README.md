@@ -20,10 +20,16 @@ Se utilizará una función de Python para generar datos aleatorios de ventas.
 La función generará información sobre el tipo de pago, producto comprado, estado de la transacción y plataforma de compra.
 Los datos se generarán cada 1 o 2 segundos para simular un flujo continuo de ventas en tiempo real.
 
+![Jupyter](https://raw.githubusercontent.com/BonfantiMatias/images/main/jupyter_ecomerce.png)
+
+
 ### 3.2. Envío de Datos a Confluence:
 
 Se utilizará Kafka para enviar los datos generados a Confluence.
 Kafka garantiza una entrega confiable y eficiente de los datos en tiempo real.
+
+![Kafka](https://github.com/BonfantiMatias/images/blob/main/kafka_ecomerce.png?raw=true)
+
 
 ### 3.3. Almacenamiento y Procesamiento en Confluence:
 
@@ -36,6 +42,11 @@ Confluence proporciona una interfaz amigable para la consulta y visualización d
 Apache Druid se utilizará para realizar consultas en streaming sobre los datos almacenados en Confluence.
 Druid es una base de datos en tiempo real optimizada para consultas analíticas.
 Se configurarán los esquemas y las consultas adecuadas en Druid para permitir el análisis de los datos de ventas en tiempo real.
+
+![Druid1](https://github.com/BonfantiMatias/images/blob/main/Druid_1.png?raw=true)
+![Druid2](https://github.com/BonfantiMatias/images/blob/main/Druid_2.png?raw=true)
+![Druid2](https://github.com/BonfantiMatias/images/blob/main/Druid_3.png?raw=true)
+
 
 ### 3.5. Alojamiento en Google Cloud:
 
